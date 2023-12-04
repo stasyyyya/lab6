@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+.it1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+}
+
+.it12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.it2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+}
+.it2:hover {
+    background-color: rgb(0, 255, 170);
+}
+.it11 {
+    height: 60px;
+    background-color: blueviolet;
+    display: grid;
+    place-items: center;
+}
+
+.it13 {
+    height: 60px;
+    background-color: darkred;
+    display: grid;
+    place-items: center;
+}
+
+.it121, .it122, .it123, .it124 {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(226, 95, 165);
+    display: grid;
+    place-items: center;
+}
+.it121:hover, .it122:hover, .it123:hover, .it124:hover {
+    background-color: rgb(255, 0, 128);
+}
+.inputt input {
+    width: 98.7%;
+    background-color: inherit;
+    border: none;
+    text-align: center;
+    font-size: inherit;
+    color: white;
+}
+.inputt input::placeholder {
+    color: white;
+}
